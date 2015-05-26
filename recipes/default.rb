@@ -32,7 +32,7 @@ when 'debian', 'ubuntu'
     uri 'http://ppa.launchpad.net/webupd8team/atom/ubuntu'
     distribution node['lsb']['codename']
     components ['main']
-    keyserver 'keyserver.ubuntu.com'
+    keyserver node['atom']['keyserver']
     key 'EEA14886'
   end
 end

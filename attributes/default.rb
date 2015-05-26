@@ -16,3 +16,4 @@
 #
 
 default['atom']['version'] = '0.124.0'
+default['atom']['keyserver'] = 'hkp://keyserver.ubuntu.com:80'
